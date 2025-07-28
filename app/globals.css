@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .glow {
+    box-shadow: 0 0 8px #3b82f6, 0 0 16px #3b82f6;
+  }
+}
