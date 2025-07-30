@@ -30,3 +30,15 @@ body {
     box-shadow: 0 0 8px #3b82f6, 0 0 16px #3b82f6;
   }
 }
+
+@keyframes glow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(180deg);
+  }
+}
+.animate-glow {
+  animation: glow 6s linear infinite;
+}
